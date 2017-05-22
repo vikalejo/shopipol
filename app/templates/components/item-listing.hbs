@@ -1,0 +1,19 @@
+<article class="listing">
+  <a {{action 'toggleImageSize'}} class="image {{if isWide "wide"}}">
+    <img src="{{item.image}}" alt='' width="220" height="200">
+    <small>View Larger</small>
+  </a>
+  <h3>{{item.title}}</h3>
+  <div class="detail owner">
+    <span>Owner:</span> {{item.owner}}
+  </div>
+  <div class="detail type">
+    <span>Type:</span> {{item.type}}
+  </div>
+  <div class="detail location">
+    <span>Location:</span> {{item.city}}
+  </div>
+  <div class="detail price">
+    <span>Price:</span> {{item.price}}
+  </div>
+</article>

@@ -9,7 +9,7 @@ export default Ember.Route.extend({
       city: 'Valladolid',
       type: 'Paint',
       price: 8,
-      image: 'https://upload.wikimedia.org/wikipedia/en/1/1a/Microwaved-CD-2.jpg',
+      image: 'https://upload.wikimedia.org/wikipedia/en/1/1a/Microwaved-CD-2.jpg' ,
       description: 'Old CD painted by me.'
     }, {
       id: 'Painting',

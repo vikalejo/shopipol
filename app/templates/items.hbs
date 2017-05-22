@@ -6,21 +6,7 @@
     About Us
   {{/link-to}}
 
-{{#each model as |item|}}
-  <article class="listing">
-    <h3>{{item.title}}</h3>
-    <div class="detail owner">
-      <span>Owner:</span> {{item.owner}}
-    </div>
-    <div class="detail type">
-      <span>Type:</span> {{item.type}}
-    </div>
-    <div class="detail location">
-      <span>Location:</span> {{item.city}}
-    </div>
-    <div class="detail price">
-      <span>Price:</span> {{item.price}}
-    </div>
-  </article>
+{{#each model as |itemUnit|}}
+  {{item-listing item=itemUnit}}
 {{/each}}
 </div>
